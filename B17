@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRID IN MY WEBPAGE</title>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <style>
+            body{background: linear-gradient(to right,yellow, white,yellow);
+                 font-family: sans-serif;
+                }
+            p{text-indent: 5%;
+                 text-transform: capitalize;
+                }
+            h2{color: green;
+                 text-decoration: overline underline;
+                }
+                /*pseudo classes*/
+            a:hover{color: red;}
+
+
+            .col-lg-2{border: 2px solid black;
+                 text-align: center;
+                }
+             .col-lg-4{border: 2px solid black;
+                 text-align: center;
+                }
+
+             .col-sm-2{border: 2px solid black;
+                 text-align: center;
+                }
+             .col-sm-3{border: 2px solid black;
+                 text-align: center;
+                }
+              
+
+        </style>
+    </head>
+    <body>
+        <p>In this project we are going to be showcasing different grids available to all devises. i advice you to pay close attention to the code and master it very well. thank you very much</p><br><br>
+        <h2>FOR DESKTOP:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    S/N
+                </div>
+                <div class="col-lg-4">
+                    Name
+                </div>
+                <div class="col-lg-2">
+                    class
+                </div>
+                <div class="col-lg-2">
+                    phone number
+                </div>
+                <div class="col-lg-2">
+                    date
+                </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-lg-2">
+                        1.
+                    </div>
+                    <div class="col-lg-4">
+                        ARNOLD
+                    </div>
+                    <div class="col-lg-2">
+                        GRADE 9
+                    </div>
+                    <div class="col-lg-2">
+                        09043046383
+                    </div>
+                    <div class="col-lg-2">
+                        11-28-24
+                    </div>
+                 </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        2.
+                    </div>
+                    <div class="col-lg-4">
+                        lohishree
+                    </div>
+                    <div class="col-lg-2">
+                        GRADE 9
+                    </div>
+                    <div class="col-lg-2">
+                        09177777595
+                    </div>
+                    <div class="col-lg-2">
+                        11-28-24
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        3.
+                    </div>
+                    <div class="col-lg-4">
+                        owe
+                    </div>
+                    <div class="col-lg-2">
+                        GRADE 11
+                    </div>
+                    <div class="col-lg-2">
+                        09918780474
+                    </div>
+                    <div class="col-lg-2">
+                        11-28-24
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        5.
+                    </div>
+                    <div class="col-lg-4">
+                        AHMAD
+                    </div>
+                    <div class="col-lg-2">
+                        GRADE 11
+                    </div>
+                    <div class="col-lg-2">
+                        07079297246
+                    </div>
+                    <div class="col-lg-2">
+                        11-28-24
+                    </div>
+                </div>
+            </div><br><br>
+
+            <h2>FOR ANDROID:</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        S/N
+                    </div>
+                    <div class="col-sm-3">
+                        Name
+                    </div>
+                    <div class="col-sm-2">
+                        class
+                    </div>
+                    <div class="col-sm-3">
+                        phone number
+                    </div>
+                    <div class="col-sm-2">
+                        date
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        1.
+                    </div>
+                    <div class="col-sm-3">
+                        ARNOLD
+                    </div>
+                    <div class="col-sm-2">
+                        GRADE 9
+                    </div>
+                    <div class="col-sm-3">
+                        09043046383
+                    </div>
+                    <div class="col-sm-2">
+                        11-28-24
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        2.
+                    </div>
+                    <div class="col-sm-3">
+                        lohishree
+                    </div>
+                    <div class="col-sm-2">
+                        GRADE 9
+                    </div>
+                    <div class="col-sm-3">
+                        09177777595
+                    </div>
+                    <div class="col-sm-2">
+                        11-28-24
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        3.
+                    </div>
+                    <div class="col-sm-3">
+                        owe
+                    </div>
+                    <div class="col-sm-2">
+                        GRADE 11
+                    </div>
+                    <div class="col-sm-3">
+                        09918780474
+                    </div>
+                    <div class="col-sm-2">
+                        11-28-24
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        5.
+                    </div>
+                    <div class="col-sm-3">
+                        AHMAD
+                    </div>
+                    <div class="col-sm-2">
+                        GRADE 11
+                    </div>
+                    <div class="col-sm-3">
+                        07079297246
+                    </div>
+                    <div class="col-sm-2">
+                        11-28-24
+                    </div>
+                </div>
+            </div><br><br>
+
+            <p>hence this is the result of the following devices. to learn more on grid lines in my webpage visit <a href="https://www.codingal.com/en-ng/student/dashboard/classes/13924199/">@codingal</a></p>
+    </body>
+</html>
